@@ -1,0 +1,243 @@
+.border{
+    border: 1px solid crimson;
+    display: flex;
+}
+.border_logo{
+    width: 30%;
+    border-right: 5px solid crimson;
+}
+.border_logo img{
+width: 15%;
+margin-left: 50px;
+}
+nav{
+    height: 70px;
+    display: flex;
+}
+menu{
+    width: 70%;
+}
+header{
+    min-height: 50px;
+}
+main{
+    min-height: 500px;
+}
+footer{
+    height: 150px;
+}
+a{
+    text-decoration: none;
+}
+.menu_border ul li{
+    padding: 15px;
+    list-style: none;
+}
+.menu_border a{
+    padding: 15px;
+    margin-top: 10px;
+}
+.menu_border{
+    margin-left: 40%;
+    display: flex;
+}
+.perfect_vac{
+    margin-left: 20px;
+}
+
+/*First Header*/
+.header_items{
+    display: flex;
+    padding: 15px;
+}
+i{
+    color: blue;
+}
+.header_icon{
+    padding: 8px;
+    background-color: bisque;
+    border-radius: 5px;
+}
+.header_input input{
+padding: 8px;
+font-size: 0.9em;
+font-style: italic;
+border: none;
+outline-width: 0;
+}
+.header_input .btn{
+    padding: 8px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    background-color: blue;
+    border: none;
+}
+/*End First Header*/
+
+/*Second header*/
+.headerTwo_items{
+    display: flex;
+    padding: 15px;
+}
+.header_text h4{
+    padding: 8px;
+    font-size: 0.9em;
+    font-style: italic;
+    }
+    .wrapper{
+        display: flex;
+    }
+.headerTwo_icons{
+    padding: 10px;
+    background-color: #87CEEB;
+    height: 13px;
+    border-radius: 50%;
+    margin-top: 17px;
+    margin-left: 30px;
+}
+
+/*End Second header*/
+
+/*Accommodation Section */
+.accomodations{
+    width: 65%;
+    min-height: 460px;
+    margin: 5px 5px 20px 15px;
+    border: 3px solid black;
+}
+.most_popular{
+    width: 35%;
+    margin: 5px 5px 20px 15px;
+    border: 3px solid black;
+    min-height: 460px;
+}
+
+.accom-image img{
+    width: 350px;
+    height: 100px;
+}
+.section-items{
+    line-height: 0%;
+    padding: 15px;
+    width: 200px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+.accom-image img{
+object-fit: cover;
+width: 250px;
+border-top-right-radius: 15px;
+border-top-left-radius: 15px;
+
+}
+.accom-image {
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.6);
+    margin: 20px;
+  }
+  .class_items{
+padding: 10px;
+  }
+  .acom h1{
+    text-align: center;
+    justify-content: center;
+  }
+  .cta{
+    margin-left: 30px;
+    display: block;
+    border: none;
+    background-color: bisque;
+  }
+/*End Accomodation Section */
+/*Most Popular*/
+.mostPopItem{
+    display: flex;
+    justify-content: space-evenly;
+}
+.mostPopImage img{
+    width: 200px;
+    height: 150px;
+}
+.mostPopItem i{
+margin-top: 18px;
+color: black;
+}
+
+.mostPopularItem{
+    margin-left: 10px;
+}
+.mostPopImage{
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.6);
+    margin: 20px;
+    object-fit: contain;
+    display: flex;
+    margin-top: 15px;
+
+}
+
+/*End Most Popular*/
+/*Activities*/
+.heading_topic h3{
+margin-left: 15px;
+}
+.act{
+    width: 25%;
+    margin: 5px 5px 20px 15px;
+    border: 3px solid black;
+    min-height: 460px;
+}
+.actOneItems{
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.6);
+    border-radius: 15px;
+    
+}
+.actOneImg img{
+width: 100%;
+height: 450px;
+border-top-right-radius: 15px;
+border-top-left-radius: 15px;
+}
+.actOneItems p{
+    padding: 5px;
+}
+.actTwoImage img{
+    width: 100%;
+    height: 192px;
+}
+.actTwoItems{
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.6);
+    border-radius: 15px;
+    justify-content: space-between;
+}
+.actTwoItems img{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.actTwoItems p{
+    padding: 5px;
+}
+.act{
+    margin-top: 25px;
+}
+/*End Activities*/
+/*Footer*/
+.foot{
+    width: 33%;
+    margin: 5px 5px 20px 15px;
+    border: 3px solid black;
+    min-height: 130px;
+}
+.footerOne{
+    line-height: 0.3em;
+    padding: 10px;
+    text-align: center;
+    background-color: aliceblue;
+}
+/*End Footer*/
